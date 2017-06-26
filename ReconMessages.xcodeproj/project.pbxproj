@@ -13,6 +13,7 @@
 		D43DA5351F01068300708E53 /* ReconMessages.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D43DA5331F01068300708E53 /* ReconMessages.xcdatamodeld */; };
 		D43DA5371F01068300708E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43DA5361F01068300708E53 /* Assets.xcassets */; };
 		D43DA53A1F01068300708E53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43DA5381F01068300708E53 /* LaunchScreen.storyboard */; };
+		D4C586831F011AC6007FD8EA /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C586821F011AC6007FD8EA /* DataService.swift */; };
 		D4DF8A471F011167004B6AA3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4DF8A461F011167004B6AA3 /* GoogleService-Info.plist */; };
 		F072E3B17F01429A0119C196 /* Pods_ReconMessages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC36FAB96DD5261843AEEF6 /* Pods_ReconMessages.framework */; };
 /* End PBXBuildFile section */
@@ -29,6 +30,7 @@
 		D43DA5361F01068300708E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D43DA5391F01068300708E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D43DA53B1F01068300708E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4C586821F011AC6007FD8EA /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		D4DF8A461F011167004B6AA3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +75,7 @@
 		D43DA52B1F01068300708E53 /* ReconMessages */ = {
 			isa = PBXGroup;
 			children = (
+				D4C586811F011A83007FD8EA /* DatabaseServcie */,
 				D43DA52C1F01068300708E53 /* AppDelegate.swift */,
 				D43DA52E1F01068300708E53 /* ViewController.swift */,
 				D43DA5301F01068300708E53 /* Main.storyboard */,
@@ -84,6 +87,15 @@
 			);
 			path = ReconMessages;
 			sourceTree = "<group>";
+		};
+		D4C586811F011A83007FD8EA /* DatabaseServcie */ = {
+			isa = PBXGroup;
+			children = (
+				D4C586821F011AC6007FD8EA /* DataService.swift */,
+			);
+			name = DatabaseServcie;
+			path = ReconMessages/DatabaseServcie;
+			sourceTree = SOURCE_ROOT;
 		};
 		D9A4AFF9C1699C693BBFD139 /* Pods */ = {
 			isa = PBXGroup;
@@ -222,6 +234,7 @@
 				D43DA52F1F01068300708E53 /* ViewController.swift in Sources */,
 				D43DA5351F01068300708E53 /* ReconMessages.xcdatamodeld in Sources */,
 				D43DA52D1F01068300708E53 /* AppDelegate.swift in Sources */,
+				D4C586831F011AC6007FD8EA /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

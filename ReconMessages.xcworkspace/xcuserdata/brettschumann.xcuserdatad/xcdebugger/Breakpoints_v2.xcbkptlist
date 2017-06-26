@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ReconMessages/ViewController.swift"
+            timestampString = "520171487.690089"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ReconMessages.ViewController.(viewDidLoad () -&gt; ()).(closure #1)"
+                  moduleName = "ReconMessages"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brettschumann/Development/ReconMessages/ReconMessages/ReconMessages/ViewController.swift"
+                  timestampString = "520171958.202357"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "175">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ReconMessages.ViewController.(viewDidLoad () -&gt; ()).(closure #1)"
+                  moduleName = "ReconMessages"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brettschumann/Development/ReconMessages/ReconMessages/ReconMessages/ViewController.swift"
+                  timestampString = "520171958.206171"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "526">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

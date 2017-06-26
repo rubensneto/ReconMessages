@@ -7,17 +7,30 @@
 //
 
 import UIKit
+import FirebaseAuth
+
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+       
+        
+        
+        Auth.auth().signIn(withEmail: "brett.schumann@t101.com", password: "m0nk3y77") { (user, error) in
+            
+            let dataService = DataService()
+            dataService.createUser(user: user!)
+            
+            print("Working " + (user?.uid)!)
+        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
 
 
